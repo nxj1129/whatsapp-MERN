@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 
 //DB Config
 const connection_url =
-  "mongodb+srv://Zyzz:wSVMGZpkSMaKn0Ok@whatsscluster.u2obn.mongodb.net/whatsappdb?retryWrites=true&w=majority";
+  "mongodb+srv://<admin>:<password>@whatsscluster.u2obn.mongodb.net/whatsappdb?retryWrites=true&w=majority";
 
 mongoose.connect(connection_url, {
   useCreateIndex: true,
